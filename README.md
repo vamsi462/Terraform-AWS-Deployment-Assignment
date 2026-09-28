@@ -1,10 +1,3 @@
-To make a GitHub README truly visual and self-explanatory, the best approach is to use **status badges**, **emojis for quick visual scanning**, and a **Mermaid.js architecture diagram** (which GitHub automatically renders into a clean, visual flowchart).
-
-Copy and paste this updated Markdown directly into your `README.md` file. When you push this to GitHub, it will automatically render the badges and the architecture diagram!
-
----
-
-```markdown
 # 🚀 AWS Infrastructure Evolution: Monolithic to Containerized Microservices
 
 **Author:** Vamsi Krishna Adusumalli
@@ -110,7 +103,3 @@ docker push <aws-account-id>[.dkr.ecr.ap-south-1.amazonaws.com/flask-backend-rep
 * ☁️ **Serverless Orchestration:** Migrating to Docker containers on AWS ECS Fargate abstracts underlying server maintenance, allowing deployments to focus strictly on resource allocation.
 * 🌐 **Advanced Cloud Networking:** Building a custom VPC reinforced core networking principles. Configuring Internet Gateways, Route Tables, and multi-AZ Subnets is critical for AWS Application Load Balancer high availability.
 * 🚦 **Traffic Routing:** Implementing path-based routing rules on an ALB demonstrates how a single public DNS endpoint can seamlessly route traffic to multiple isolated microservices.
-
-```
-
-```
